@@ -1,0 +1,8 @@
+<form (submit)="sendMail()" ngNativeValidate #myForm>
+  <input required type="text" name="name" #nameField />
+  <input required type="email" name="email" #mailField />
+  <textarea required name="message" #messageField></textarea>
+  <button #sendButton>Send</button>
+</form>
+
+<!-- action="https://mazin-fouad.developerakademie.net/send_mail/send_mail.php" -->
